@@ -1,7 +1,12 @@
 .startus-bar {
+  position: fixed;
+  top: 0;
+
+  width: 100%;
   display: flex;
   justify-content: center;
   padding: 5px 3px;
+  box-sizing: border-box;
 }
 .startus-bar__column {
   width: 33%;
@@ -11,6 +16,7 @@
 }
 .startus-bar__column:nth-child(2) {
   display: flex;
+
   justify-content: center;
 }
 .startus-bar__column:last-child {
