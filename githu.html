@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Friends - Milkyway</title>
+  </head>
+  <body>
+    <div id="shooting-star">
+      <!-- 상단바->복붙 -->
+      <div class="status-bar">
+        <div class="status-bar__column">
+          <span>No Service</span>
+          <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+          <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+          <span>1004%</span>
+          <i class="fas fa-battery-three-quarters fa-lg"></i>
+          <i class="fas fa-bolt"></i>
+        </div>
+      </div>
+
+      <!-- 헤더 섹션->재사용 -->
+      <header class="screen-header">
+        <h1 class="screen-header__title">Friends</h1>
+        <div class="screen-header__icons">
+          <span><i class="fas fa-search fa-lg"></i></span>
+          <span><i class="fas fa-music fa-lg"></i></span>
+          <span
+            ><a href="settings.html"><i class="fas fa-cog fa-lg"></i></a
+          ></span>
+          <span class="ellipsis__noti ellipsis__noti--top"></span>
+        </div>
+      </header>
+
+      <a id="friends-display-link">
+        <i class="fas fa-info-circle"></i>
+        <span>Friends' Names Display</span>
+        <i class="fas fa-chevron-right fa-xs"></i>
+      </a>
+
+      <main class="friends-screen">
+        <!-- 유저 프로필 -->
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="css/milkyway.jpg"
+              class="user-component__avatar user-component__avatar--lg"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__name">Baby Milkyway</h4>
+            </div>
+          </div>
+          <div class="user-component__column"></div>
+        </div>
+
+        <div class="musicbox">
+          <div class="musicbox-title">
+            <span>
+              <i class="fas fa-music"></i>
+              Today's Music
+            </span>
+            <span>Press Play Button</span>
+          </div>
+          <div class="music-title">
+            <span>밤하늘의 별을(2020)</span>
+            <span>- 경서</span>
+          </div>
+          <iframe
+            class="music"
+            width="300"
+            height="150"
+            src="https://www.youtube.com/embed/U2qs2GVKSXg?autoplay=1&playlist=U2qs2GVKSXg&loop=1&rel=0&showinfo=0"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+        </div>
+
+        <!-- 친구 목록 -->
+        <div class="friends-screen__channel">
+          <div class="friends-screen__channel-header">
+            <span>Milkyway Channel</span>
+            <i class="fas fa-chevron-up fa-xs"></i>
+          </div>
+          <div class="user-component">
+            <div class="user-component__column">
+              <img
+                src="https://w.namu.la/s/418543832e39b3dbccbdec5961aca295b236bd9e154960393e64d1cf6d6501a787219beba2e107507c33efe7fb52faf5181b680a8cfd495865914ecfcb1987c885a6dacfa561e5c0a198041f09b2b24b5ff1f2285352752a1c536452ac57f5464d2089538a1116e25c74b2f4f7a5de26"
+                class="user-component__avatar user-component__avatar--sm"
+              />
+              <div class="user-component__text">
+                <h4 class="user-component__name user-component__name--thin">
+                  Orion Nebula
+                  <i class="fas fa-check-circle official_acount"></i>
+                </h4>
+              </div>
+            </div>
+
+            <div class="user-component__column">
+              <div>
+                <span class="user-component__count">13</span>
+                <i class="fas fa-chevron-right fa-xs"></i>
+              </div>
+            </div>
+          </div>
+          <div class="user-component">
+            <div class="user-component__column">
+              <img
+                src="css/aries.jpg"
+                class="user-component__avatar user-component__avatar--sm"
+              />
+              <div class="user-component__text">
+                <h4 class="user-component__name user-component__name--thin">
+                  Aries
+                </h4>
+              </div>
+            </div>
+
+            <div class="user-component__column">
+              <div>
+                <span class="user-component__count">5</span>
+                <i class="fas fa-chevron-right fa-xs"></i>
+              </div>
+            </div>
+          </div>
+          <div class="user-component">
+            <div class="user-component__column">
+              <img
+                src="css/taurus.jpg"
+                class="user-component__avatar user-component__avatar--sm"
+              />
+              <div class="user-component__text">
+                <h4 class="user-component__name user-component__name--thin">
+                  Taurus
+                </h4>
+              </div>
+            </div>
+
+            <div class="user-component__column">
+              <div>
+                <span class="user-component__count">9</span>
+                <i class="fas fa-chevron-right fa-xs"></i>
+              </div>
+            </div>
+          </div>
+          <div class="user-component">
+            <div class="user-component__column">
+              <img
+                src="css/Pisces.jpeg"
+                class="user-component__avatar user-component__avatar--sm"
+              />
+              <div class="user-component__text">
+                <h4 class="user-component__name user-component__name--thin">
+                  Pisces
+                </h4>
+              </div>
+            </div>
+
+            <div class="user-component__column">
+              <div>
+                <span class="user-component__count">23</span>
+                <i class="fas fa-chevron-right fa-xs"></i>
+              </div>
+            </div>
+          </div>
+          <div class="user-component">
+            <div class="user-component__column">
+              <img
+                src="css/Libra.jpg"
+                class="user-component__avatar user-component__avatar--sm"
+              />
+              <div class="user-component__text">
+                <h4 class="user-component__name user-component__name--thin">
+                  Libra
+                </h4>
+              </div>
+            </div>
+
+            <div class="user-component__column">
+              <div>
+                <span class="user-component__count">4</span>
+                <i class="fas fa-chevron-right fa-xs"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <nav class="nav">
+        <ul class="nav__ul">
+          <li class="nav__li">
+            <a class="nav__a nav__li-current" href="friends.html">
+              <i class="fas fa-user fa-2x"></i>
+            </a>
+          </li>
+
+          <li class="nav__li">
+            <a class="nav__a" href="chats.html">
+              <span class="nav__noti badge">1</span>
+              <i class="far fa-comment fa-2x"></i>
+            </a>
+          </li>
+
+          <li class="nav__li">
+            <a class="nav__a" href="find.html"
+              ><i class="fas fa-search fa-2x"></i
+            ></a>
+          </li>
+          <li class="nav__li">
+            <a class="nav__a" href="more.html">
+              <span class="ellipsis__noti ellipsis__noti--bottom"></span>
+              <i class="fas fa-ellipsis-h fa-2x"></i
+            ></a>
+          </li>
+        </ul>
+      </nav>
+      <div id="splash-screen"><span>WELCOME TO MILKYWAY TALK</span></div>
+    </div>
+    <div id="no-mobile">
+      <span>Oops😅</span>
+      <span> Plz check your screen.</span
+      ><span> Turn to Portrait or Reduce your Width</span>
+    </div>
+    <div id="no-mobile">
+      <span>당신의 화면이 너무 넓습니다.</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/8ae89e08ca.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
